@@ -267,18 +267,12 @@ Observed Docker note: Docker reported the ports as published at `0.0.0.0:8080` a
 
 ## What This Project Demonstrates
 
-SnippetSync is designed to be resume-friendly because it shows both product engineering and systems thinking:
-
 - Built a real full-stack app with typed frontend code and Go backend services.
 - Designed an API for reusable multi-file software modules.
 - Implemented a project generator that composes modules and dependencies.
 - Built a custom key/value storage layer with primary/backup replication semantics.
 - Added failover, exactly-once request handling, snapshots, shard ownership, and observability.
 - Documented the design with architecture diagrams and reproducible setup steps.
-
-Resume bullet:
-
-> Built SnippetSync, a full-stack developer knowledge platform with a custom Go SyncKV storage layer demonstrating primary/backup replication, numbered views, failover, exactly-once writes, snapshots, and shard ownership; designed a React workbench for searching reusable modules and generating project starters from trusted code.
 
 ## Future Work
 
